@@ -1,12 +1,6 @@
-name: Dennis Brotzky
-bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
-avatar: ./avatars/dennis-brotzky.jpg
-social:
-  - url: https://unsplash.com
-  - url: https://stackoverflow.com
-  - url: https://github.com
-  - url: https://github.com
-  - url: https://github.com
+name: White Prime
+bio: ITHard creator
 featured: true
+avatar: avatars/photo_2020-08-29_04-29-53.jpg
+social:
+  - 'https://t.me/ITHard'
