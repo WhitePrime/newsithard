@@ -1,5 +1,6 @@
 backend: # Set up your backend
-  name: gitlab
+  name: githab
+  repo: WhitePrime/newsithard
 
 local_backend: true # Optional if you want to use the local proxy mode
 
