@@ -1,130 +1,89 @@
 ---
-title: My first post using Novela by Narative
-author: Dennis Brotzky
-date: 2019-04-30
-hero: ./images/hero.jpg
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+title: Tables by Google
+author: White Prime
+date: 2019-04-30T00:00:00.000Z
+excerpt: >-
+  инструмент для автоматизации и управления рабочими процессами, соединивший в
+  себе рабочие области, таблицы, ботов, элементы визуального программирования и
+  возможности взаимодействия практически с любыми сторонними сервисами.
+hero: images/45aa94aa-6f67-4515-9b02-a8d1cca3280b.png
 ---
+<!--StartFragment-->
 
-My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+![](https://teletype.in/files/45/aa/45aa94aa-6f67-4515-9b02-a8d1cca3280b.png)
 
-## Headers
+**Tables Google** - это инструмент для автоматизации и управления рабочими процессами, соединивший в себе рабочие области, таблицы, ботов, элементы визуального программирования и возможности взаимодействия практически с любыми сторонними сервисами.
 
-# H1
 
-It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
 
-## H2
+***На данный момент сервис доступен только для USA. То есть для использования необходим ВПН.***
 
-### H3
 
-#### H4
 
-##### H5
+Tables является промежуточным звеном между электронными таблицами и базами данных, с множеством функций по визуализации и возможностями интеграции.
 
-###### H6
+![](https://teletype.in/files/32/93/3293ada2-d1e6-46eb-9b3c-eb6b23cf8162.png)
 
-## Emphasis
+*Несмотря на количество подсказок, пошаговых гайдов и наборов готовых шаблонов - я потерялся представленном функционале)*
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
-Combined emphasis with **asterisks and _underscores_**.
+Кроме знакомых таблиц представлены ещё два инструмента:
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+\- Workspaces
 
-## Lists
+\- Bots
 
-1. First ordered list item
-2. Another item
-3. Actual numbers don't matter, just that it's a number
 
-- Unordered list can use asterisks
 
-* Or minuses
+**Рабочие области** позволяют проводить планирование, объединяя в единый интерфейс канбан, to-do и календарь.
 
-- Or pluses
+![](https://teletype.in/files/a6/fc/a6fcf334-13da-468e-bd72-db261c408fbd.png)
 
-## Links
 
-[I'm an inline-style link](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+**Боты**могут запускаться, когда что-то происходит (например, добавляется запись), по заданному расписанию (ежедневно или еженедельно) или даже другим ботом.
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+Они могут выполнять такие действия, как модификация записей, добавление записей, отправка электронной почты или активация webhooks (например, для отправки уведомления в чате на Slack).
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+![](https://teletype.in/files/15/72/1572d525-9602-4615-9f50-d787cf4a2211.gif)
 
-[You can use numbers for reference-style link definitions][1]
 
-Or leave it empty and use the [link text itself].
 
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
+Так же доступен обновлённый конструктор Google Forms, для ограниченного заполнения данными.
 
-Some text to show that the reference links can follow later.
+![](https://teletype.in/files/17/b3/17b35c8c-e905-4675-bcd8-61193e58004a.png)
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
 
-## Images
 
-<div className="Image__Small">
-  <img
-    src="./images/article-image-2.jpg"
-    title="Logo Title Text 1"
-    alt="Alt text"
-  />
-</div>
+Импорт/экспорт Google Sheets доступен как при создании страницы, так и при формирования итогов в более привычной форме..
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
-## Code and Syntax Highlighting
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+Для автоматизации взаимодействия с внешней средой доступна [Tables API](https://support.google.com/area120-tables/answer/10011390?hl=en) с которой можно взаимодействовать с помощью Apps Script.
+
+
+
+Пример получения строк из Таблицы:
+
 ```
 
 ```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
 
-### JSX
 
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
 
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
+## **[Google Tables](https://kutt.it/tablesgoogle)**
 
-## Blockquotes
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
-## Horizontal Rule
+*Тем временем Яндекс тоже представил "новый продукт", собрав такси, доставку и навигатор на одном экране в приложении...* *Тоже результат.*
 
-Horizontal Rule
 
-Three or more...
 
----
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
----
+## [Telegram канал ITHARD](https://ttttt.me/ITHARD)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+<!--EndFragment-->
