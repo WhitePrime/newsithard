@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `ITHard`,
     name: `White Prime`,
-    siteUrl: `https://novela.narative.co`,
+    siteUrl: `http://blog.ithard.ru/`,
     description: `interesting notes on the use of technology in everyday life`,
     hero: {
       heading: `interesting notes on the use of technology in everyday life`,
